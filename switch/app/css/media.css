@@ -1,0 +1,63 @@
+@media (max-width: 768px) {
+    .title_page__blur {
+        background-color: #ccb595;
+        opacity: 0.9;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    
+    .title_page__logo {
+        position: relative;
+        right: 1px;
+        padding-bottom: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .title_page__text {
+        font-size: 45px;
+    }
+    .title_page__work {
+        font-size: 18px;
+    }
+    .title {
+        font-size: 18px;
+    }
+    .sub_title {
+        font-size: 14px;
+    }
+    .our_latest_work__link a {
+        font-size: 14px;
+    }
+    .our_happy_client__link a {
+        font-size: 13px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .title_page__text {
+        font-size: 45px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .title_page__work {
+        font-size: 20px;
+    }
+    .title_page__block_scroll {
+        margin-top: 50px;
+    }
+    .what_we_do__icons {
+        margin-top:  30px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .title_page__block_scroll {
+        margin-top: 50px;
+    }
+    .what_we_do__icons {
+        margin-top:  30px;
+    }
+}

@@ -1,0 +1,293 @@
+/*reset style*/
+* {
+  font-weight: inherit;
+  font-family: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  border: 0 none;
+  outline: 0;
+  padding: 0;
+  margin: 0; }
+/* //reset style*/
+
+.background_header {
+  height: 100%;
+  background-color: #49454a; }
+
+.background_white {
+  height: 100%;
+  background-color: white; }
+
+.background_black {
+  height: 100%;
+  background-color: #4d4e50; }
+
+.green_block {
+  height: 100%;
+  background-color: #a5d14d; }
+
+.background_white h1 {
+  font-family: 'Roboto Black', sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  color: #292929;
+  text-transform: capitalize; }
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-font-weight: lighter;
+  color: #535353; }
+
+header a {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: white; }
+
+.background_header__timer {
+  border: 2px solid #a5d14d;
+  border-radius: 18px;
+  margin-top: 100px;
+  margin-bottom: 250px; }
+
+.background_header__time {
+  font-family: 'Roboto Slab', sans-serif;
+  font-size: 130px;
+  font-weight: 100;
+  color: white; }
+
+.background_header__date {
+  font-family: 'Roboto Slab', sans-serif;
+  font-size: 25px;
+  font-weight: normal;
+  color: white;
+  text-transform: uppercase; }
+
+.background_white__welcome {
+  margin-top: 50px; }
+
+.background_white__form h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+  padding-top: 30px;
+  padding-bottom: 15px; }
+
+.background_white__form {
+  background-color: white;
+  position: relative;
+  bottom: 150px;
+  border: 1px solid #969595; }
+
+input[type="text"]:-ms-input-placeholder {
+  font-family: 'Roboto',sans-serif;
+  font-weight: 100;
+  font-size: 19px;
+  color: #bdbdbd; }
+
+input[type="text"]::-ms-input-placeholder {
+  font-family: 'Roboto',sans-serif;
+  font-weight: 100;
+  font-size: 19px;
+  color: #bdbdbd; }
+
+input[type="text"]::-webkit-input-placeholder {
+  font-family: 'Roboto',sans-serif;
+  font-weight: 100;
+  font-size: 19px;
+  color: #bdbdbd; }
+
+input[type="text"]:-ms-input-placeholder {
+  font-family: 'Roboto',sans-serif;
+  font-weight: 100;
+  font-size: 19px;
+  color: #bdbdbd; }
+
+input[type="text"]::placeholder {
+  font-family: 'Roboto',sans-serif;
+  font-weight: 100;
+  font-size: 19px;
+  color: #bdbdbd; }
+
+.background_white__form_input {
+  font-family: 'Roboto',sans-serif;
+  font-weight: 100;
+  font-size: 19px;
+  color: #6c6c6c;
+  border: 1px solid #bdbdbd;
+  border-radius: 5px;
+  padding: 5px 0px 5px 15px; }
+
+.background_white__form_input:hover {
+  border: 1px solid #a5d14d; }
+
+.background_white__form_submit {
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  color: white;
+  background-color: #a5d14d;
+  padding: 10px 0px 10px 0px;
+  border-radius: 5px;
+  font-weight: bold; }
+
+.background_white__form_text {
+  margin-top: 20px; }
+
+.background_white__event_details h2 {
+  text-transform: capitalize;
+  font-family: 'Roboto Black', sans-serif;
+  font-weight: bold;
+  font-size: 35px; }
+
+.background_white__event_information {
+  margin-top: 50px; }
+
+.background_white__event_information_card_black {
+  background-color: #3a3a3a; }
+
+.background_white__event_information_card_black h5 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-size: 22px;
+  color: white;
+  margin-top: 10px; }
+
+.background_white__event_information_card_gray {
+  background-color: #4d4e50; }
+
+.background_white__event_information_card_gray h5 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-size: 22px;
+  color: white;
+  margin-top: 10px; }
+
+.fa-plus-circle {
+  color: white; }
+
+.card-body {
+  color: white; }
+
+.background_white__event_information_text {
+  margin-top: 40px;
+  margin-bottom: 100px; }
+
+.background_black__block {
+  margin-top: 50px;
+  margin-bottom: 100px; }
+
+.background_black h1 {
+  font-family: 'Roboto Black', sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  color: white; }
+
+.background_black p {
+  color: white; }
+
+.background_black__btn {
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  color: white;
+  background-color: #a5d14d;
+  padding: 15px 20px;
+  border-radius: 15px; }
+
+.background_white__blocks {
+  height: 295px;
+  background-color: #a5d14d;
+  border-radius: 15px;
+  margin-right: 40px; }
+
+.background_white__img_blocks {
+  margin-right: 40px; }
+
+.background_white__line {
+  margin-bottom: 40px; }
+
+.background_white__block {
+  margin-bottom: 100px; }
+
+.background_black__speakers_title {
+  margin-top: 40px; }
+
+.background_black__sponsor {
+  margin-bottom: 100px; }
+
+.background_black__sponsor_title {
+  margin-top: 40px; }
+
+.background_black__sponsor_text {
+  margin-top: 20px;
+  margin-bottom: 50px; }
+
+.background_black__sponsor_btn {
+  margin-top: 60px; }
+
+.background_black__sponsor_btn button {
+  font-family: 'Roboto Regular', sans-serif;
+  font-size: 22px;
+  color: white;
+  text-transform: capitalize;
+  background-color: #a5d14d;
+  padding: 10px 20px;
+  border-radius: 15px; }
+
+.background_white__past_events {
+  margin-top: 60px;
+  margin-bottom: 100px; }
+
+.background_white__past_events h1 {
+  font-family: 'Roboto Black', sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  color: #292929;
+  text-transform: capitalize; }
+
+.background_white__past_events p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-font-weight: lighter;
+  color: #535353; }
+
+.background_white__block_one {
+  height: 415px;
+  background-color: #506ece; }
+
+.background_white__block_two {
+  height: 415px;
+  background-color: green; }
+
+.background_white__block_three {
+  height: 415px;
+  background-color: yellow; }
+
+.background_white__block_four {
+  height: 415px;
+  background-color: purple; }
+
+.background_white__past_events_btn {
+  margin-top: 90px; }
+
+.background_white__past_events_btn button {
+  font-family: 'Roboto Regular', sans-serif;
+  font-size: 22px;
+  color: white;
+  text-transform: capitalize;
+  text-transform: capitalize;
+  padding: 15px 25px;
+  border-radius: 15px;
+  background-color: black; }
+
+footer ul {
+  margin-top: 50px; }
+
+footer a {
+  color: white; }
+
+footer p {
+  margin-top: 10px; }

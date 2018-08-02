@@ -1,0 +1,98 @@
+@media (max-width: 768px) {
+    
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .background_header__time {
+        font-size: 110px;
+    }
+    .background_black__sponsor_title h1 {
+        font-size: 45px;
+    }
+    .background_black__sponsor_text p {
+        font-size: 13px;
+    }
+    .background_black__sponsor_btn button {
+        font-size: 17px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .background_header__navigation a {
+        font-size: 12px;
+    }
+    .background_header__time {
+        font-size: 90px;
+    }
+    .background_black__block h1 {
+        font-size: 40px;
+    }
+    .background_white__blocks {
+        margin-top: 40px;
+    }
+    .background_white__img_blocks {
+        margin-top: 40px;
+    }
+    .background_black__sponsor_btn button {
+        font-size: 13px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .background_header__time {
+        font-size: 60px;
+    }
+    .background_header__date {
+        font-size: 20px;
+    }
+    .background_white__welcome h1 {
+        font-size: 45px;
+    }
+    .background_white__form h2 {
+        font-size: 25px;
+    }
+    .background_white__event_details h2 {
+        font-size: 25px;
+    }
+    .background_white__blocks {
+        margin-top: 40px;
+    }
+    .background_white__img_blocks {
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .background_header__logo {
+        max-width: 200px;
+    }
+    .background_header__time {
+        font-size: 30px;
+    }
+    .background_header__date {
+        font-size: 12px;
+    }
+    .background_white__form {
+        margin-top: 150px;
+    }
+    .background_white__event_information_card_black h5 {
+        font-size: 17px;
+    }
+    .background_white__event_information_card_gray h5 {
+        font-size: 17px;
+    }
+    .background_white__blocks {
+        margin-top: 40px;
+        margin-right: 0px;
+    }
+    .background_white__img_blocks {
+        margin-top: 40px;
+        margin-right: 0px;
+    }
+    .background_black__sponsor_title h1 {
+        font-size: 30px;
+    }
+    .background_black__sponsor_img {
+        margin-bottom: 10px;
+    }
+}

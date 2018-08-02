@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="62" height="2" viewBox="0 0 62 2">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #afacac;
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #939393;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M-42,459v-2H20v2H-42Z"/>
+  <rect class="cls-2" x="-77.719" y="-3.781" width="140.438" height="28.281" rx="2" ry="2"/>
+</svg>

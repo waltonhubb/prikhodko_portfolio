@@ -1,0 +1,312 @@
+/* reset style */
+* {
+  font-weight: inherit;
+  font-family: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  border: 0 none;
+  outline: 0;
+  padding: 0;
+  margin: 0; }
+/* //reset style */
+
+header {
+  margin-bottom: 260px; }
+
+.title_page {
+  background-image: url("../img/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  height: 100%; }
+
+.nav-link {
+  font-family: ProximaNovaRegular, sans-serif;
+  font-size: 16px;
+  color: white;
+  text-transform: capitalize; }
+
+.nav-link:hover {
+  color: white; }
+
+.navigation li {
+  display: inline;
+  border-top: 5px solid transparent; }
+
+.navigation li:hover {
+  border-top: 5px solid #87d05e; }
+
+input[type="search"] {
+  border: none;
+  height: 27px;
+  width: 177px;
+  border-radius: 13px;
+  opacity: 0.8;
+  padding-left: 12px;
+  padding-right: 30px;
+  font-family: ProximaNovaLight, sans-serif;
+  font-size: 16px;
+  color: black; }
+
+input[type="submit"] {
+  width: 15px;
+  height: 15px;
+  border: none;
+  background: url(../img/search-solid.svg);
+  background-repeat: no-repeat;
+  position: relative;
+  top: 5px;
+  right: 25px; }
+
+.search-group {
+  margin-top: 3px; }
+
+.title_page__logo {
+  position: relative;
+  right: 40px; }
+
+.title_page__text {
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+  font-size: 54px;
+  text-transform: capitalize;
+  color: white;
+  margin-bottom: 40px; }
+
+.title_page__text span {
+  text-transform: lowercase; }
+
+.title_page__link {
+  border-radius: 22px;
+  background-color: #87d05e;
+  padding: 15px 31px; }
+
+.title_page__work:hover {
+  text-decoration: none; }
+
+.title_page__work {
+  color: white;
+  font-family: ProximaNovaRegular, sans-serif;
+  font-size: 22px;
+  text-transform: uppercase; }
+
+.title_page__block_scroll {
+  background-color: white;
+  opacity: 0.8;
+  border-radius: 12px;
+  padding: 9px 11px;
+  margin-top: 100px;
+  margin-bottom: 10px; }
+
+.title_page__scroll {
+  font-family: ProximaNovaLight, sans-serif;
+  font-size: 16px;
+  color: black; }
+
+.title {
+  font-family: Montserrat, sans-serif;
+  font-size: 19px;
+  font-weight: lighter;
+  color: #818080;
+  text-transform: uppercase;
+  margin-top: 43px;
+  text-align: center; }
+
+.sub_title {
+  font-family: OpenSans, sans-serif;
+  font-size: 15px;
+  font-weight: lighter;
+  color: #b4b1b1;
+  text-align: center; }
+
+.what_we_do {
+  background-color: white;
+  padding-bottom: 70px; }
+
+.what_we_do__containers {
+  margin-top: 35px; }
+
+.what_we_do__icons {
+  padding: 33px 33px;
+  border-radius: 25px;
+  background-color: #e6f3e1;
+  color: #87d05e; }
+
+.what_we_do__title {
+  font-family: ProximaNovaBold, sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  color: #808080;
+  text-transform: capitalize;
+  margin-top: 27px; }
+
+.what_we_do__text {
+  font-family: Montserrat, sans-serif;
+  font-size: 15px;
+  font-weight: lighter;
+  color: #818080; }
+
+.what_we_do__link {
+  font-family: ProximaNovaBold, sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  color: white;
+  text-transform: capitalize;
+  background-color: #87d05e;
+  padding: 10px 20px;
+  border-radius: 15px;
+  text-decoration: none; }
+
+.our_latest_work {
+  background-color: #87d05e;
+  padding-bottom: 50px; }
+  .our_latest_work .our_latest_work__works {
+    margin-top: 25px; }
+    .our_latest_work .our_latest_work__works .btn {
+      height: 35px;
+      font-family: ProximaNovaRegular, sans-serif;
+      font-size: 16px;
+      color: #5e9a39;
+      border: 1px solid #5e9a39;
+      border-radius: 15px;
+      background-color: white;
+      margin-bottom: 58px; }
+
+.our_latest_work__images {
+  padding-bottom: 30px; }
+
+.our_latest_work__link {
+  margin-top: 55px; }
+
+.our_latest_work__link a {
+  font-family: ProximaNovaRegular, sans-serif;
+  font-size: 18px;
+  color: white;
+  background-color: #5e9a39;
+  padding: 13px 8px;
+  border-radius: 18px; }
+
+.testimoinals {
+  padding-bottom: 60px; }
+
+.testimoinals__slider {
+  margin-top: 40px; }
+
+.testimoinals__slider_text {
+  font-family: ProximaNovaRegular, sans-serif;
+  font-size: 16px; }
+
+.mt-0 {
+  font-family: ProximaNovaRegular, sans-serif;
+  font-size: 16px; }
+
+.testimoinals__slider_ceo {
+  font-family: ProximaNovaBold, sans-serif;
+  font-size: 16px;
+  color: #cbcbcb;
+  text-transform: capitalize; }
+
+.testimoinals__slider_ceo span {
+  text-transform: uppercase; }
+
+.our_happy_client {
+  background-color: #f1f1f1;
+  padding-bottom: 60px; }
+
+.our_happy_client__table {
+  margin-top: 50px;
+  margin-bottom: 60px; }
+
+.our_happy_client__link a {
+  font-family: ProximaNovaRegular, sans-serif;
+  font-size: 18px;
+  color: #a19c9c;
+  background-color: #dcdbdb;
+  padding: 13px 21px;
+  border-radius: 18px; }
+
+.meet_the_team {
+  background-color: #87d05e;
+  padding-bottom: 20px; }
+
+.meet_the_team h6 {
+  font-family: ProximaNovaRegular, sans-serif;
+  font-size: 16px;
+  color: white; }
+
+.meet_the_team__social td a {
+  background-color: #cfe8c6;
+  padding: 4px 6px; }
+
+footer {
+  background-color: #363636; }
+
+.information {
+  padding-top: 30px; }
+
+.information h3 {
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  color: white;
+  text-transform: uppercase; }
+
+.information h5 {
+  font-family: Montserrat, sans-serif;
+  font-size: 12px;
+  color: white;
+  text-transform: uppercase; }
+
+.information__text {
+  font-family: ProximaNovaRegular, sans-serif;
+  font-size: 16px;
+  color: white; }
+
+.mt-00 {
+  width: 100%;
+  background-color: #87d05e;
+  padding: 4px 5px;
+  border-radius: 2px; }
+
+.mt-1 {
+  width: 100%;
+  background-color: #edb92b;
+  padding: 4px 5px;
+  border-radius: 2px; }
+
+.mt-2 {
+  width: 100%;
+  background-color: #599ce7;
+  padding: 4px 5px;
+  border-radius: 2px; }
+
+.mt-3 {
+  width: 100%;
+  background-color: #d34e15;
+  padding: 4px 5px;
+  border-radius: 2px; }
+
+.mt-4 {
+  width: 100%;
+  background-color: #edb92b;
+  padding: 4px 5px;
+  border-radius: 2px; }
+
+.information address {
+  font-family: ProximaNovaLight, sans-serif;
+  font-size: 14px;
+  color: white; }
+
+.information form input {
+  background-color: #464646;
+  border: 1px solid #464646;
+  margin: 0px 0px 5px 0px; }
+
+.information form button {
+  font-family: ProximaNovaRegular, sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: white;
+  background-color: #5e9a39;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px; }
